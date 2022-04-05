@@ -4,12 +4,32 @@ body {
 h1 {
     background-color: #E2EF70;
 }
-#navegação {
-    background-color: #EF709D;
-}
+.nav-links li {
+    color: #FFFFFF;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #3772FF;   
+    margin-right: 30px;
+   }
 
 #classificação {
     position: relative;
     height: fit-content;
-    border: 2px solid red;
+    }
+.imagem {
+    width: 100%;
+}
+.conteudo {
+    margin: 15px;
+    width: 30%;
+}
+#video {
+    background-color: #F038FF;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 15px;
+    border-radius: 5%;
+    display: inline-block;
+    float: right;
+    font-size: 15px;
 }
