@@ -1,0 +1,15 @@
+body {
+    background-color: #70E4EF;
+}
+h1 {
+    background-color: #E2EF70;
+}
+#navegação {
+    background-color: #EF709D;
+}
+
+#classificação {
+    position: relative;
+    height: fit-content;
+    border: 2px solid red;
+}
