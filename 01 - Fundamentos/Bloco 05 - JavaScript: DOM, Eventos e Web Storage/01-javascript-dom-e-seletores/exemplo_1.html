@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <header>
+        <h2 id="page-title">Título</h2>
+        <p id="paragraph">Dê uma cor para este parágrafo!</p>
+        <h4 id="subtitle">Subtítulo</h4>
+        <p id="second-paragraph">Segundo parágrafo!</p>
+    </header>
+    <script>
+        //Mudar a cor do paragrafo para verde:
+        const paragraph = document.getElementById("paragraph");
+        paragraph.style.color = "green";
+
+        //Mudar título pra filme favorito:
+        let titulo = document.getElementById('page-title');
+        titulo.innerText = "The Lord of the Rings" 
+
+        //Mudar segundo para qualquer coisa:
+        let secondParagraph = document.getElementById('second-paragraph');
+        secondParagraph.innerText = "Melhor trilogia da história da arte áudio visual"
+
+        //Mudar subtitulo para qualquer coisa:
+        let subtitle = document.getElementById('subtitle');
+        subtitle.innerText = "Won eleven oscars"
+    </script>
+</body>
+
+</html>
